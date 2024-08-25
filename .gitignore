@@ -1,0 +1,5 @@
+.env
+
+test.sql
+spotify_etl.log
+auth.json
