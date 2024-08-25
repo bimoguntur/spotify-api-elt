@@ -38,5 +38,5 @@ def connect():
     
 
 if __name__ == "__main__":
-    conn = connect_to_db()
+    conn = connect()
     conn.close()
