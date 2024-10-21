@@ -6,7 +6,6 @@ import logging
 import time 
 
 logging.basicConfig(filename='spotify_etl.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 load_dotenv(dotenv_path='./.env')
 
 DB_NAME = os.getenv('POSTGRES_DB')
